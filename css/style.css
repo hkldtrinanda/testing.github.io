@@ -1,0 +1,108 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../assets/font/AmericanCaptain.ttf);
+}
+
+.font1 {
+  font-family: myFirstFont;
+}
+
+@font-face {
+  font-family: mysecondFont;
+  src: url(../assets/font/BungeeInline-Regular.ttf);
+}
+
+.font2 {
+  font-family: mysecondFont;
+}
+
+@font-face {
+  font-family: mythirdFont;
+  src: url(../assets/font/Forum-Regular.ttf);
+}
+
+.font3 {
+  font-family: mythirdFont;
+}
+
+@font-face {
+  font-family: myfourthFont;
+  src: url(../assets/font/Market_Deco.ttf);
+}
+
+.font4 {
+  font-family: myfourthFont;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #34d399;
+}
+
+.animated {
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+.pattern {
+  background-image: url("../assets/img/bg/bg.png");
+  width: 100%;
+  height: auto;
+  position: sticky;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.event {
+  background-image: url("../assets/img/bg/event.png");
+  width: 100%;
+  height: auto;
+  position: sticky;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.about {
+  background-image: url("../assets/img/bg/about.png");
+  width: 100%;
+  height: auto;
+  position: sticky;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.esport {
+  background-image: url("../assets/img/bg/ESPORT.png");
+  width: 100%;
+  height: auto;
+  position: sticky;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.webinar {
+  background-image: url("../assets/img/bg/webinar.png");
+  width: 100%;
+  height: auto;
+  position: sticky;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fontsize {
+  font-size: 200px;
+}
+
+@media only screen and (max-width: 640px) {
+  .pattern {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("..img/bg1.webp");
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+* {
+  scroll-behavior: smooth;
+}
